@@ -7,9 +7,12 @@ const items = document.querySelectorAll(".price");
     let totalamount = 0;
     items.forEach((item )=> {
         totalamount += Number(item.textContent);
+		tr.appendChild(totalamount)
     });
   
 };
+const tr=document.createElement("tr")
+
 
 getSumBtn.addEventListener("click", getSum);
 
