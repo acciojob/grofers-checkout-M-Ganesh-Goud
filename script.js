@@ -7,6 +7,14 @@ const items = document.querySelectorAll(".price");
     let totalamount = 0;
     items.forEach((item )=> {
         totalamount += Number(item.textContent);
+
+		const tr=document.createElement("tr")
+		const td=document.createElement("td")
+		td.textContent=totalamount
+		td.append("tr")
+		tr.append("table")
+		
+		
     });
   
 };
