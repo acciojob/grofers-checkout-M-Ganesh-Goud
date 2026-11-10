@@ -16,7 +16,7 @@ const getSum = () => {
     td.textContent = totalamount;
 
     tr.appendChild(td);
-    document.querySelector("table").appendChild(tr);
+    table.appendChild(tr);
 };
 
 getSumBtn.addEventListener("click", getSum);
