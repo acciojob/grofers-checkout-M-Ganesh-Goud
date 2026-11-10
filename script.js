@@ -1,9 +1,9 @@
 const getSumBtn = document.createElement("button");
-getSumBtn.append("Get Total Price");
+getSumBtn.append("Get Total Prices");
 document.body.appendChild(getSumBtn);
 
 const getSum = () => {
-const items = document.querySelectorAll(".price");
+const items = document.querySelectorAll(".prices");
     let totalamount = 0;
     items.forEach((item )=> {
         totalamount += Number(item.textContent);
