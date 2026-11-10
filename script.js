@@ -11,8 +11,8 @@ const items = document.querySelectorAll(".price");
 		const tr=document.createElement("tr")
 		const td=document.createElement("td")
 		td.textContent=totalamount
-		td.appendChild("tr")
-		tr.appendChild("table")
+		tr.appendChild("td")
+		document.querySelector("table").appendChild(tr);
 		
 		
     });
