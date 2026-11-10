@@ -11,15 +11,13 @@ const items = document.querySelectorAll(".price");
 		const tr=document.createElement("tr")
 		const td=document.createElement("td")
 		td.textContent=totalamount
-		td.append("tr")
-		tr.append("table")
+		td.appendChild("tr")
+		tr.appendChild("table")
 		
 		
     });
   
-};
-const tr=document.createElement("tr")
-		tr.appendChild(totalamount)
+
 
 
 getSumBtn.addEventListener("click", getSum);
