@@ -9,14 +9,15 @@ const items = document.querySelectorAll(".price");
         totalamount += Number(item.textContent);
 
 		
-    }
+    });
 				 
 				 
 		const tr=document.createElement("tr")
 		const td=document.createElement("td")
 		td.textContent=totalamount
-		tr.appendChild("td")
+		tr.appendChild(td)
 		document.querySelector("table").appendChild(tr);
+}
 		
   
 
